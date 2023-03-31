@@ -2,7 +2,7 @@
 
 ## Description 
 
-This project utilizes js and node to be able to create a .md file on the repository. This README.md is currently being typed in a terminal.
+This project utilizes js and node to be able to create a .md file on the repository. This README.md is currently being typed in a terminal, is is now being manually edited for my specifications.
 
 ## Table of Contents
 
@@ -12,46 +12,47 @@ This project utilizes js and node to be able to create a .md file on the reposit
 
 * [License](#license)
 
-* [Contributing](#contributing)
-* [Tests](#tests)
-* [Questions](#questions)
+
 
 ## Installation
 
-To install necessary dependencies, run the following command:
+To install necessary dependencies, run the following commands:
 
+1. Clone the repository:  
 ```
-After installing node, you can use commands like 'npm i inquirer@8.2.4' as well as calling 'node index.js' to see the prompt and instructions.
-```
+git clone [HTTPS/SSH/CLI link]
+``` 
+
+2. Navigate over to files in terminal
+3. Type in terminal:  
+``` 
+npm i inquirer 8.2.4
+```   
+4. Run through node in the terminal:  
+``` 
+node index.js
+``` 
+
+
+
 
 ## Usage
 
-You can create your own .md file by installing node.js as well as the inquirer package and cloning the repo in your terminal.
+You can create your own .md file by installing node.js as well as the inquirer package and cloning the repo in your terminal. This is supposed to be an easy way to make a preset template for whatever README files you need to create.
 
 ## Credits
+<br/>
 
-Rbustan, UCLA Ext Web Dev Bootcamp sample code
+### Creation
+* [Rbustan0](https://github.com/Rbustan0) 
+* UCLA Ext Web Dev Bootcamp sample code given
 
+<br/>
+
+### Extensions used
 node.js, inquirer 8.2.4
 
 ## License
   
   ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  This project uses the MIT license!
-
-## Contributing
-
-Give me feedback on any possible bugs or your renditions of this repo!
-
-## Tests
-
-To run tests, run the following command:
-
-```
-Review installation instructions
-```
-
-## Questions
-
-If you have any questions about the repo, open an issue or contact me directly at royebustan@gmail.com. You can find more of my work at rbustan0.
