@@ -23,6 +23,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Please provide installation instructions:',
+        name: 'installation'
+    },
+    {
+        type: 'input',
         message: 'List your collaborators with a comma and space included:',
         name: 'collaborators'
     },
@@ -33,9 +38,30 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please type which license you used:',
-        name: 'license'
+        message: 'Please type how others can contribute:',
+        name: 'contributing'
     },
+    {
+        type: 'input',
+        message: 'Please type how to run tests:',
+        name: 'tests'
+    },
+    {
+        type: 'input',
+        message: 'Please provide your email:',
+        name: 'email'
+    },
+    {
+        type: 'input',
+        message: 'Please provide your GitHub username:',
+        name: 'username'
+    },
+    {
+        type: 'list',
+        message: 'Please choose a license for your project:',
+        name: 'license',
+        choices: ['MIT', 'GPL', 'Apache', 'BSD', 'None']
+    }
     
     
 ];
