@@ -1,8 +1,8 @@
-# test2
+# Please Read Me
 
 ## Description 
 
-testing this
+This project utilizes js and node to be able to create a .md file on the repository. This README.md is currently being typed in a terminal.
 
 ## Table of Contents
 
@@ -21,37 +21,37 @@ testing this
 To install necessary dependencies, run the following command:
 
 ```
-ca
+After installing node, you can use commands like 'npm i inquirer@8.2.4' as well as calling 'node index.js' to see the prompt and instructions.
 ```
 
 ## Usage
 
-carefully
+You can create your own .md file by installing node.js as well as the inquirer package and cloning the repo in your terminal.
 
 ## Credits
 
-w, a, d
+Rbustan, UCLA Ext Web Dev Bootcamp sample code
 
-f, 4 , d
+node.js, inquirer 8.2.4
 
 ## License
   
-  ![License](https://img.shields.io/badge/license-BSD-blue.svg)
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
-  This project uses the BSD license!
+  This project uses the MIT license!
 
 ## Contributing
 
-no
+Give me feedback on any possible bugs or your renditions of this repo!
 
 ## Tests
 
 To run tests, run the following command:
 
 ```
-no
+Review installation instructions
 ```
 
 ## Questions
 
-If you have any questions about the repo, open an issue or contact me directly at yes. You can find more of my work at yes.
+If you have any questions about the repo, open an issue or contact me directly at royebustan@gmail.com. You can find more of my work at rbustan0.
