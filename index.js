@@ -22,9 +22,20 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Provide examples and instructions for use of project:',
-        name: 'usage'
+        message: 'List your collaborators with a comma and space included:',
+        name: 'collaborators'
     },
+    {
+        type: 'input',
+        message: 'List your third-party assets with a comma and space included:',
+        name: 'thirdParty'
+    },
+    {
+        type: 'input',
+        message: 'Please type which license you used:',
+        name: 'license'
+    },
+    
     
 ];
 
