@@ -83,8 +83,8 @@ function init() {
     inquirer
         .prompt(questions)
         .then((response)=>{
-            const writeme = generateMarkdown(response);
-            writeToFile('README.md', generateMarkdown);
+            const markdown = generateMarkdown(response);
+            writeToFile('README.md', markdown);
         })
         .catch((err) => console.error(err));
 }

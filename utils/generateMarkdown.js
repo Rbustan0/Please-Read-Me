@@ -24,6 +24,8 @@ function renderLicenseSection(license) {
   }
   else return `## License
   
+  ${renderLicenseBadge(license)}
+
   This project uses the ${license} license!`;
 }
 
